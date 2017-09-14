@@ -1,14 +1,4 @@
-#include <memory>
-
-#include <Commands/Command.h>
-#include <Commands/Scheduler.h>
-#include <IterativeRobot.h>
-#include <LiveWindow/LiveWindow.h>
-#include <SmartDashboard/SendableChooser.h>
-#include <SmartDashboard/SmartDashboard.h>
-
-#include "Commands/ExampleCommand.h"
-#include "CommandBase.h"
+#include <WPILib.h> 
 
 class Robot: public frc::IterativeRobot {
 public:
